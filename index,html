@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MENTAL ARCHIVE — NO SECURITY AGENCY</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background:
+        radial-gradient(circle at center, #101010 0%, #050505 50%, #000 100%);
+    color: #cfcfcf;
+    font-family: "Courier New", monospace;
+}
+
+.container {
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+    padding: 45px 0 80px;
+}
+
+/* HEADER */
+
+.header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 25px;
+    margin-bottom: 45px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #e5e5e5;
+}
+
+.header .subtitle {
+    margin-top: 12px;
+    color: #666;
+    font-size: 13px;
+}
+
+.status {
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 7px 12px;
+    font-size: 11px;
+    color: #777;
+}
+
+/* SECTIONS */
+
+.section {
+    margin-bottom: 55px;
+}
+
+.section h2 {
+    color: #ddd;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-left: 3px solid #666;
+    padding-left: 12px;
+    margin-bottom: 22px;
+}
+
+.section h3 {
+    color: #aaa;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.section p {
+    color: #929292;
+    font-size: 14px;
+    line-height: 1.85;
+}
+
+.section strong {
+    color: #c7c7c7;
+}
+
+/* INFO BOX */
+
+.info-box {
+    border: 1px solid #292929;
+    background: rgba(10,10,10,0.8);
+    padding: 25px;
+    margin: 25px 0;
+}
+
+.info-box .label {
+    color: #555;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.info-box .value {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* STEPS */
+
+.process {
+    border-left: 1px solid #333;
+    padding-left: 25px;
+}
+
+.process-item {
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.process-item::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #777;
+    left: -29px;
+    top: 5px;
+}
+
+.process-item h3 {
+    margin-top: 0;
+    color: #ccc;
+}
+
+.process-item p {
+    margin-bottom: 0;
+}
+
+/* WARNING */
+
+.warning {
+    border: 1px solid #3a3a3a;
+    background: #080808;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.warning-title {
+    color: #aaa;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.warning p {
+    color: #777;
+}
+
+/* CLASSIFIED */
+
+.classified {
+    color: #050505 !important;
+    background: #050505;
+    user-select: none;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #222;
+    text-align: center;
+    padding: 35px 10px;
+    color: #3f3f3f;
+    font-size: 10px;
+    line-height: 1.7;
+}
+
+/* HIDDEN CODE */
+
+.hidden-code {
+    position: fixed;
+    bottom: 4px;
+    right: 5px;
+
+    font-family: "Courier New", monospace;
+    font-size: 7px;
+
+    color: #151515;
+    background: transparent;
+
+    opacity: 0.35;
+
+    pointer-events: none;
+    user-select: none;
+
+    z-index: 9999;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <h1>MENTAL ARCHIVE</h1>
+
+        <div class="subtitle">
+            NO SECURITY AGENCY — INTERNAL DOCUMENT
+        </div>
+
+        <div class="status">
+            DOCUMENT ID: MA-1899-R
+        </div>
+
+    </div>
+
+
+    <!-- INTRODUCCIÓN -->
+
+    <div class="section">
+
+        <h2>01 — INTRODUCCIÓN</h2>
+
+        <p>
+            El Archivo Mental es un sistema desarrollado por NO SECURITY
+            AGENCY para registrar, organizar y preservar información
+            relacionada con la actividad cognitiva de un individuo.
+        </p>
+
+        <p>
+            A diferencia de un archivo convencional, el Archivo Mental no
+            almacena únicamente información escrita, imágenes o registros
+            audiovisuales. Su objetivo es conservar una representación
+            estructurada de los recuerdos, conocimientos, asociaciones y
+            respuestas aprendidas de una persona.
+        </p>
+
+        <p>
+            El sistema fue desarrollado originalmente como una herramienta
+            de recuperación para individuos que habían perdido grandes
+            cantidades de información debido a accidentes, enfermedades o
+            situaciones experimentales.
+        </p>
+
+        <p>
+            Con el paso de los años, el proyecto evolucionó. Los
+            investigadores descubrieron que determinados patrones de
+            actividad mental podían ser organizados y almacenados de manera
+            independiente del cuerpo físico.
+        </p>
+
+    </div>
+
+
+    <!-- QUÉ ALMACENA -->
+
+    <div class="section">
+
+        <h2>02 — ¿QUÉ ALMACENA?</h2>
+
+        <p>
+            El Archivo Mental divide la información de un individuo en
+            diferentes categorías. Cada categoría posee una prioridad
+            diferente durante los procesos de recuperación.
+        </p>
+
+        <div class="info-box">
+
+            <div class="label">
+                MEMORY
+            </div>
+
+            <div class="value">
+                Recuerdos personales, acontecimientos y experiencias.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">
+                KNOWLEDGE
+            </div>
+
+            <div class="value">
+                Información aprendida durante la vida del individuo.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">
+                BEHAVIOR
+            </div>
+
+            <div class="value">
+                Patrones de comportamiento y respuestas aprendidas.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">
+                ASSOCIATION
+            </div>
+
+            <div class="value">
+                Relaciones entre personas, lugares, objetos y recuerdos.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">
+                IDENTITY
+            </div>
+
+            <div class="value">
+                Información utilizada para mantener la continuidad de la
+                identidad del individuo.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROCESO -->
+
+    <div class="section">
+
+        <h2>03 — FUNCIONAMIENTO DEL SISTEMA</h2>
+
+        <div class="process">
+
+            <div class="process-item">
+
+                <h3>FASE 01 — CAPTURA</h3>
+
+                <p>
+                    El sistema obtiene información procedente de la actividad
+                    cognitiva del individuo. Los datos obtenidos son
+                    convertidos a un formato que puede ser procesado por
+                    los sistemas internos de la agencia.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <h3>FASE 02 — ORGANIZACIÓN</h3>
+
+                <p>
+                    La información no se almacena como una única unidad.
+                    Los recuerdos son separados en grupos y conectados
+                    mediante relaciones internas.
+                </p>
+
+                <p>
+                    Por ejemplo, recordar una casa puede activar información
+                    relacionada con una persona, una conversación, un sonido
+                    o un acontecimiento ocurrido dentro de ella.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <h3>FASE 03 — COMPRESIÓN</h3>
+
+                <p>
+                    Debido al enorme volumen de información producido por una
+                    mente humana, el sistema utiliza procesos de compresión.
+                    La información repetida o considerada secundaria puede
+                    almacenarse con una prioridad menor.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <h3>FASE 04 — INDEXACIÓN</h3>
+
+                <p>
+                    Cada fragmento recibe identificadores internos. Estos
+                    identificadores permiten localizar rápidamente recuerdos
+                    específicos sin necesidad de reconstruir el archivo
+                    completo.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <h3>FASE 05 — VERIFICACIÓN</h3>
+
+                <p>
+                    Antes de utilizar un archivo mental, el sistema compara
+                    diferentes sectores para determinar si existen
+                    inconsistencias.
+                </p>
+
+                <p>
+                    Las inconsistencias pueden aparecer cuando un recuerdo
+                    ha sido modificado, eliminado parcialmente o combinado
+                    con información externa.
+                </p>
+
+            </div>
+
+
+            <div class="process-item">
+
+                <h3>FASE 06 — RESTAURACIÓN</h3>
+
+                <p>
+                    Una vez completada la verificación, el archivo puede ser
+                    utilizado para reconstruir determinados patrones
+                    cognitivos del individuo.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- RELACIÓN CON PROJECT R -->
+
+    <div class="section">
+
+        <h2>04 — RELACIÓN CON PROJECT R</h2>
+
+        <p>
+            PROJECT R utiliza una versión modificada del Archivo Mental.
+            Mientras que el sistema convencional fue diseñado principalmente
+            para conservar información, PROJECT R requiere que dicha
+            información pueda interactuar con un entorno virtual.
+        </p>
+
+        <p>
+            Para conseguirlo, el Archivo Mental funciona como una capa
+            intermedia entre el individuo y el entorno.
+        </p>
+
+        <p>
+            El entorno recibe información suficiente para reproducir
+            respuestas, conocimientos y comportamientos asociados con el
+            individuo registrado.
+        </p>
+
+        <p>
+            Sin embargo, la reproducción de información no significa
+            necesariamente que todos los recuerdos estén disponibles al
+            mismo tiempo.
+        </p>
+
+        <p>
+            El sistema determina qué información debe permanecer activa
+            dependiendo del entorno y de las circunstancias.
+        </p>
+
+    </div>
+
+
+    <!-- RECUERDOS -->
+
+    <div class="section">
+
+        <h2>05 — RECUPERACIÓN DE RECUERDOS</h2>
+
+        <p>
+            Los recuerdos no son tratados como archivos independientes.
+            Cada recuerdo posee conexiones con otros elementos del Archivo
+            Mental.
+        </p>
+
+        <p>
+            Cuando un elemento es solicitado, el sistema busca las
+            conexiones correspondientes y reconstruye la información
+            utilizando los datos disponibles.
+        </p>
+
+        <p>
+            Esto permite que un individuo pueda recordar una persona sin
+            recordar inmediatamente su nombre, o reconocer un lugar sin
+            recordar exactamente cuándo estuvo allí.
+        </p>
+
+        <p>
+            El proceso puede producir pequeñas diferencias entre el recuerdo
+            original y su reconstrucción.
+        </p>
+
+    </div>
+
+
+    <!-- ERRORES -->
+
+    <div class="section">
+
+        <h2>06 — ERRORES Y PÉRDIDA DE INFORMACIÓN</h2>
+
+        <p>
+            Ningún Archivo Mental es considerado completamente perfecto.
+        </p>
+
+        <p>
+            La pérdida de información puede producirse por daños en los
+            registros, errores durante la captura o incompatibilidad entre
+            el archivo y el sistema receptor.
+        </p>
+
+        <p>
+            Cuando una sección no puede ser recuperada, el sistema puede
+            intentar reconstruirla utilizando información relacionada.
+        </p>
+
+        <p>
+            Una reconstrucción incompleta puede provocar que determinados
+            recuerdos aparezcan fragmentados, desordenados o asociados con
+            elementos incorrectos.
+        </p>
+
+        <div class="warning">
+
+            <div class="warning-title">
+                INTERNAL WARNING
+            </div>
+
+            <p>
+                La reconstrucción automática no debe considerarse equivalente
+                al recuerdo original.
+            </p>
+
+            <p>
+                Los resultados deben ser revisados antes de cualquier
+                transferencia experimental.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- IDENTIDAD -->
+
+    <div class="section">
+
+        <h2>07 — CONTINUIDAD DE IDENTIDAD</h2>
+
+        <p>
+            Uno de los objetivos principales del Archivo Mental es mantener
+            suficiente información para que un individuo conserve una
+            continuidad reconocible de identidad.
+        </p>
+
+        <p>
+            El sistema distingue entre información esencial y secundaria.
+            Los elementos considerados esenciales reciben una prioridad
+            superior durante los procesos de recuperación.
+        </p>
+
+        <p>
+            Entre estos elementos pueden encontrarse conocimientos,
+            relaciones personales, recuerdos importantes y patrones de
+            comportamiento.
+        </p>
+
+        <p>
+            La agencia continúa investigando qué cantidad de información es
+            necesaria para mantener dicha continuidad.
+        </p>
+
+    </div>
+
+
+    <!-- NIVELES -->
+
+    <div class="section">
+
+        <h2>08 — NIVELES DE ACCESO</h2>
+
+        <div class="info-box">
+
+            <div class="label">LEVEL I</div>
+
+            <div class="value">
+                Información general del sistema.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">LEVEL II</div>
+
+            <div class="value">
+                Información técnica y mantenimiento.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">LEVEL III</div>
+
+            <div class="value">
+                Registros individuales y procedimientos especializados.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">LEVEL IV</div>
+
+            <div class="value">
+                Información relacionada con PROJECT R.
+            </div>
+
+        </div>
+
+        <div class="info-box">
+
+            <div class="label">LEVEL IV+</div>
+
+            <div class="value">
+                <span class="classified">
+                    INFORMATION RESTRICTED — ARCHIVE CONNECTION REQUIRED
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- NOTA FINAL -->
+
+    <div class="section">
+
+        <h2>09 — NOTA DE LA AGENCIA</h2>
+
+        <p>
+            El Archivo Mental fue creado con un objetivo sencillo:
+            conservar aquello que una persona no debería perder.
+        </p>
+
+        <p>
+            Cada nueva versión del sistema busca reducir la cantidad de
+            información perdida durante los procesos de recuperación.
+        </p>
+
+        <p>
+            La investigación continúa.
+        </p>
+
+        <p>
+            <strong>
+                AYUDAR ES ENCONTRAR UNA SOLUCIÓN.
+            </strong>
+        </p>
+
+    </div>
+
+
+</div>
+
+
+<footer>
+
+    NO SECURITY AGENCY © 1899 — PRESENT
+    <br>
+    MENTAL ARCHIVE — INTERNAL DOCUMENT
+    <br>
+    AUTHORIZATION LEVEL IV REQUIRED
+
+</footer>
+
+
+<!-- CÓDIGO OCULTO -->
+
+<div class="hidden-code">
+    mybrain
+</div>
+
+
+</body>
+</html>
